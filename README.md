@@ -1,11 +1,6 @@
-# Web Automation, Dynamic Scraping and Data Extraction with Selenium & BeautifulSoup
+## Web Automation, Dynamic Scraping and Data Extraction with Selenium & BeautifulSoup
 
-
----
-
-📌 Web Automation, Dynamic Scraping and Data Extraction with Selenium & BeautifulSoup
-
-📖 Overview
+### 📖 Overview
 
 This repository demonstrates a practical exercise focused on building a semi-automated web data acquisition pipeline when no API is available and data must be collected directly from dynamic web pages for NLP / AI / LLM applications.
 
@@ -24,7 +19,7 @@ The project includes:
 
 ---
 
-🧠 Features
+### 🧠 Features
 
 Automate live browser interaction using Selenium
 
@@ -32,7 +27,7 @@ Parse dynamic rendered web pages using BeautifulSoup
 
 Handle CAPTCHA with human-in-the-loop workflow
 
-Extract <h3> elements as structured text data
+Extract elements as structured text data
 
 Save extracted results into reusable datasets
 
@@ -42,7 +37,7 @@ Represent the data ingestion layer for NLP / AI systems
 
 ---
 
-📁 File Structure
+### 📁 File Structure
 
 webloader.py → Main automation and scraping script
 
@@ -54,9 +49,9 @@ names.txt → Output file containing extracted titles
 
 ---
 
-🚀 How to Use
-
-🔧 Setup
+### 🚀 How to Use
+---
+### 🔧 Setup
 
 Install required dependencies:
 
@@ -71,7 +66,7 @@ chromedriver.exe
 
 ---
 
-▶️ Run the Script
+### ▶️ Run the Script
 
 Execute the following command:
 
@@ -80,7 +75,7 @@ python webloader.py
 
 ---
 
-⚙️ Execution Flow
+### ⚙️ Execution Flow
 
 1. A Chrome browser instance is launched via Selenium
 
@@ -109,7 +104,7 @@ names.txt
 
 ---
 
-🧩 Why This Matters for AI / NLP
+### 🧩 Why This Matters for AI / NLP
 
 Before building embeddings, RAG systems, or LLM applications, raw textual data is required.
 
@@ -120,14 +115,14 @@ Web → Automation → HTML Rendering → Parsing → Clean Text → NLP / Embed
 
 ---
 
-🔒 CAPTCHA Handling
+### 🔒 CAPTCHA Handling
 
 This project uses a human-in-the-loop approach for CAPTCHA solving to demonstrate realistic scraping workflows in restricted environments.
 
 
 ---
 
-📌 Possible Improvements
+### 📌 Possible Improvements
 
 Headless browser execution (--headless mode)
 
@@ -143,7 +138,7 @@ Direct integration with NLP preprocessing pipelines
 
 ---
 
-✅ Key Insight
+### ✅ Key Insight
 
 This project is not just a scraper.
 It is a foundational data pipeline component for AI systems where APIs are not available.
